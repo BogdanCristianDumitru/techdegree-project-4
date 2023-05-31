@@ -4,20 +4,30 @@
 
 .container {
     padding: 0 10px;
+    @media (min-width: $break-m) {
+      max-width: 1400px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
   
   .row {
-    display: flex;
-    flex-direction: column;
+    @include flex;
     padding: 1em 10px;
+    @media (min-width: $break-m) {
+      flex-direction: row;
+    }
   }
   
   [class^=col] {
-    margin-top: 10px;
-    flex-basis: 100%;
-    min-height: 25px;
-    padding: 10px;
-    border-radius: 5px;
+    @include col;
+    @media (min-width: $break-m) {
+      display: flex;
+      justify-content: center;
+      margin-top: 0;
+      align-items: center;
+    }
   }
   
   .theme.col-1 {
@@ -29,7 +39,7 @@
   }
   
   .theme.col-3 {
-    background-color: #deb2ee;
+    background-color: $color-col-25;
   }
   
   .theme.col-4 {
@@ -41,11 +51,17 @@
   }
   
   .theme.col-6 {
-    background-color: #4da2bb;
+    background-color: $color-col-50;
   }
   
   .theme.col-7 {
     background-color: #ec9fa3;
+    @media (min-width: 768px) {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      flex-basis: 58.33%;
+    }
   }
   
   .theme.col-8 {
@@ -65,7 +81,7 @@
   }
   
   .theme.col-12 {
-    background-color: #80e8d1;
+    background-color: $color-col-100;
   }
   
   .card {

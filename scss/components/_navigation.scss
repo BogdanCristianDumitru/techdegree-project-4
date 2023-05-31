@@ -5,10 +5,14 @@
 .nav {
     padding-left: 0;
     flex-basis: 100%;
-    display: flex;
-    flex-direction: column;
+    @include flex;
+    @media (min-width: $break-m) {
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+    }
   }
-  
+
   .nav-link {
     text-align: center;
     border-radius: 5px;
@@ -18,10 +22,14 @@
     transition: 
       background-color .2s ease-in-out, 
       color .2s ease-in-out;
+    &:hover {
+        color: #fff;
+        background-color: #58e1c1;
+      }
+    @media (min-width: $break-m) {
+      flex-basis: 100px;
+    }
   }
   
-  .nav-link:hover {
-    color: #fff;
-    background-color: #58e1c1;
-  }
+  
   
