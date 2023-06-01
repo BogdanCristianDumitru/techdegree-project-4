@@ -791,6 +791,7 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
     flex-basis: 58.33%;
   }
 }

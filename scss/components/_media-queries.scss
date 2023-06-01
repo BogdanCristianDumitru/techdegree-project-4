@@ -1,7 +1,7 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+@media (min-width: $break-m) {
     
     [class^=col] + [class^=col] {
       margin-left: 10px;
@@ -72,6 +72,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
     flex-basis: 58.33%;
     }
   }
