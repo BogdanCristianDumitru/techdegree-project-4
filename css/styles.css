@@ -454,24 +454,49 @@ a {
   background-color: #51ddfc;
 }
 
-/* line 19, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_buttons.scss */
+/* line 17, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_buttons.scss */
+.default:hover {
+  background-color: #83e7fd;
+}
+
+/* line 22, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_buttons.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 23, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_buttons.scss */
+/* line 24, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_buttons.scss */
+.error:hover {
+  background-color: #eca0a3;
+}
+
+/* line 29, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_buttons.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 27, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_buttons.scss */
+/* line 31, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_buttons.scss */
+.info:hover {
+  background-color: #af9ed1;
+}
+
+/* line 36, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_buttons.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 31, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_buttons.scss */
+/* line 38, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_buttons.scss */
+.success:hover {
+  background-color: #89d9a1;
+}
+
+/* line 43, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_buttons.scss */
 .warning {
   background-color: #fd7856;
+}
+
+/* line 45, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_buttons.scss */
+.warning:hover {
+  background-color: #fea088;
 }
 
 /* ============================================= */
@@ -662,42 +687,32 @@ a {
   background-color: #ec9fa3;
 }
 
-@media (min-width: 768px) {
-  /* line 57, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_grid.scss */
-  .theme.col-7 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    flex-basis: 58.33%;
-  }
-}
-
-/* line 67, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_grid.scss */
+/* line 61, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_grid.scss */
 .theme.col-8 {
   background-color: #fd9f85;
 }
 
-/* line 71, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_grid.scss */
+/* line 65, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_grid.scss */
 .theme.col-9 {
   background-color: #e4757a;
 }
 
-/* line 75, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_grid.scss */
+/* line 69, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_grid.scss */
 .theme.col-10 {
   background-color: #63cc82;
 }
 
-/* line 79, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_grid.scss */
+/* line 73, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_grid.scss */
 .theme.col-11 {
   background-color: #51ddfc;
 }
 
-/* line 83, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_grid.scss */
+/* line 77, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_grid.scss */
 .theme.col-12 {
   background-color: #80e8d1;
 }
 
-/* line 87, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_grid.scss */
+/* line 81, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_grid.scss */
 .card {
   flex-basis: 100%;
 }
@@ -735,37 +750,48 @@ a {
     flex-basis: 50.00%;
   }
   /* line 34, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_media-queries.scss */
+  .theme.col-7 {
+    flex-basis: 58.33%;
+  }
+  /* line 38, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_media-queries.scss */
   .col-8 {
     flex-basis: 66.67%;
   }
-  /* line 38, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_media-queries.scss */
+  /* line 42, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_media-queries.scss */
   .col-9 {
     flex-basis: 75.00%;
   }
-  /* line 42, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_media-queries.scss */
+  /* line 46, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_media-queries.scss */
   .col-10 {
     flex-basis: 83.33%;
   }
-  /* line 46, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_media-queries.scss */
+  /* line 50, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_media-queries.scss */
   .col-11 {
     flex-basis: 91.67%;
   }
-  /* line 50, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_media-queries.scss */
+  /* line 54, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_media-queries.scss */
   .col-12 {
     flex-basis: 100%;
   }
-  /* line 54, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_media-queries.scss */
+  /* line 58, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_media-queries.scss */
   .btn {
     padding: 10px 30px;
   }
-  /* line 58, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_media-queries.scss */
+  /* line 62, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_media-queries.scss */
   .btn + .btn {
     margin-left: 10px;
   }
-  /* line 62, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_media-queries.scss */
+  /* line 66, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_media-queries.scss */
   .logo {
     margin-left: initial;
     margin-right: initial;
+  }
+  /* line 71, ../../../../../Users/bogdandumitru/Documents/Front End Courses/Tech Degree/Unit 4/techdegree-project-4/scss/components/_media-queries.scss */
+  .centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    flex-basis: 58.33%;
   }
 }
 

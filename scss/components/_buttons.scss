@@ -14,21 +14,36 @@
   
   .default {
     background-color: $color-link-login;
+    &:hover {
+      background-color: $color-link-login-light;
+    }
   }
   
   .error {
     background-color: #e4757a;
+    &:hover {
+      background-color: $color-btn-err-light;
+    }
   }
   
   .info {
     background-color: #927bc1;
+    &:hover {
+      background-color: $color-btn-info-light;
+    }
   }
   
   .success {
     background-color: #63cc82;
+    &:hover {
+      background-color: $color-btn-sucs-light;
+    }
   }
   
   .warning {
     background-color: #fd7856;
+    &:hover {
+      background-color: $color-btn-warn-light;
+    }
   }
   

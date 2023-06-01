@@ -56,12 +56,6 @@
   
   .theme.col-7 {
     background-color: #ec9fa3;
-    @media (min-width: 768px) {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      flex-basis: 58.33%;
-    }
   }
   
   .theme.col-8 {

@@ -4,6 +4,21 @@ $color-col-100: #80e8d1;
 $color-col-25: #deb2ee;
 $color-col-50: #4da2bb;
 
+$color-link-login-light: lighten($color-link-login, 10%);
+
+$color-btn-sucs: #63cc82;
+$color-btn-sucs-light: lighten($color-btn-sucs, 10%); 
+
+$color-btn-err: #e4757a;
+$color-btn-err-light: lighten($color-btn-err, 10%);
+
+$color-btn-warn: #fd7856;
+$color-btn-warn-light: lighten($color-btn-warn, 10%);
+
+$color-btn-info: #927bc1;
+$color-btn-info-light: lighten($color-btn-info, 10%);
+
+
 $break-m: 768px;
 
 
